@@ -1,0 +1,24 @@
+<div class="container pageContainer">
+  <div class="row">
+    <div class="col-md-12" >
+      <div class="space-down-50">
+        <a class="btn btn-primary pull-right" href="/users/new">Add user</a>
+      </div>
+      <table class="table table-striped table-hover table-bordered noselect">
+        <tr class="tableHeader">
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+        {{#each users}}
+          <tr class="tableRow" data-id="{{this.id}}">
+            <td>{{this.first_name}}</td>
+            <td>{{this.last_name}}</td>
+            <td>{{this.email}}</td>
+          </tr>
+        {{/each}}
+      </table>
+    </div>
+  </div>
+</div>
+<script src="/js/usersList.js"></script>

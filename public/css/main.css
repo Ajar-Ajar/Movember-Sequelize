@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.pageContainer{
+  padding-top:135px;
+  padding-bottom:100px;
+}
+.footer{
+  background-color:#101010;
+  height:100%;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.tableRow{
+  cursor: pointer;
+}
+.tableHeader{
+  cursor:default;
+}
+.space-down-50 { padding-bottom: 50px; }
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
